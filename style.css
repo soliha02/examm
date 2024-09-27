@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#boxOta{
+   margin-top: 100px;
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.box{
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+ border-radius: 20px;
+ text-align: center;
+ 
+}
+
+.box img{
+    width: 180px;
+    margin-left: 10px;
+}
+.box p{
+    margin: 17px;
+    font-size: smaller;
+}
+.box h3{
+    color: blue;
+    margin: 15px;
+}
+.box h2{
+
+    margin: 17px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    margin-left: 500px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#err{
+    color: red;
+    margin-left: 430px;
+    margin-top: 20px;
+}
